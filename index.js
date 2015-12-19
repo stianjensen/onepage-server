@@ -13,4 +13,6 @@ server.use(function(req, res, next) {
   res.send(file);
 });
 
-server.listen(4444);
+server.listen(4444, function() {
+  console.log('Serving on localhost:4444');
+});
