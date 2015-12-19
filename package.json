@@ -1,0 +1,9 @@
+{
+  "name": "onepage-server",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "bin": {
+    "onepage": "index.js"
+  }
+}
